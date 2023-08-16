@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Segitiga</title>
+</head>
+<body>
+   <header>
+    <div class="container">
+        <div class="jumbotron">
+   <h1>Kalkulator Luas dan Keliling Segitiga</h1> 
+</header>
+</body>
+
+<body>
+    <p><h3>Pengertian Segitiga Sama Sisi</h3></p>
+    
+    <p><em>Segitiga sama sisi adalah bangun segitiga yang memiliki ketiga sisinya memiliki panjang yang sama dan ketiga sudutnya memiliki besar sudut yang sama.
+
+Yang membedakan segitiga ini dengan yang lain adalah semua sisinya memiliki panjang yang sama.
+
+Sudut segitiga sama sisi mempunyai 3 buah sudut dengan besar sudut berukuran 60°.
+
+Jumlah sudut segitiga sama sisi adalah 180°.</em></p>
+<p></p>
+<p><h3>Ciri ciri segitiga sama sisi yaitu :</h3></p>
+<p><em>• Memiliki tiga sisi dengan panjang yang sama</em></p>
+<p><em>• Memiliki tiga sudut dengan besar yang sama yaitu 60°</em></p>
+<p><em>• Memiliki tiga simetri putar</em></p>
+<p><em>• Memiliki tiga simetri lipat</em></p>
+<p><em>• Memiliki tiga sumbu simetri</em></p>
+    <h3><trong>Rumus Luas Segitiga</trong></h3>
+    <p><em>Luas= 1/2 x a x t</em></p>
+    <p></p>
+    <p>Keterangan:</p>
+    <p><i>a = alas, t = tinggi</i></p>
+
+    <h3><trong>Rumus Keliling Segitiga</trong></h3>
+     <p><em>Keliling= s1 x s2 x s3</em></p>
+     <p></p>
+     <p>Keterangan:</p>
+     <p><i>s1 = sisi 1, s2 = sisi 2, s3 = sisi 3,</i></p>
+
+     <p></p>
+     <p></p>
+     <hr>
+     <hr>
+<header
+    <div class="container">
+   <h1>Luas Segitiga</h1> 
+</header>
+</div>
+<p>
+    <figure>
+    <img src="assets/images/segitiga.jpg" width:"300" height="170"> 
+    <p></p>
+    <div>
+    <div id="content">
+        <center>
+        <div>
+        <div id="content">
+        <p><i>Sebuah segitiga mempunyai panjang alas berukuran 15 cm dan tinggi 8 cm. Dari alas dan tinggi tersebut, tentukan luas dari segitiga tersebut!</i></p>
+        <p>a. 50</p>
+        <p>b. 60</p>
+        <p>c. 55</p>
+        <p>d. 120</p>
+        <p>e. 150</p>
+        </div>
+    </center>
+    </div>
+    </figure>
+</p>
+<html>
+<body>
+<script language="JavaScript" type="text/javascript">
+
+<!--
+
+function hitung(){
+
+var myForm = document.form1;
+var x=eval(myForm.x.value);
+var y=eval(myForm.y.value);
+var pil= myForm.opt.value;
+if (pil == "tambah") {
+var z = x + y;
+ }else if (pil == "kurang") {
+var z = x - y;
+ } else if (pil == "kali") {
+var z = x * y;
+ } else if (pil == "bagi") {
+var z = x / y;
+ }
+ myForm.hasil.value = z;
+ myForm.x.value = "";
+ myForm.y.value = "";
+}
+function resetForm(){
+document.form1.reset();
+}
+
+//-->
+
+</script>
+<div align="center">
+<form name="form1" action="#">
+<p>ALAS.    <input type="text" name="x" /></p>
+<p>TINGGI  <input type="text" name="y" /></p>
+<p>HASIL   <input type="text" name="hasil" disabled="true" /></p>
+<p>operator <select name="opt"></p>
+ <option value="tambah"> + (tambah)</option>
+ <option value="kurang"> - (kurang)</option>
+ <option value="kali"> * (kali)</option>
+ <option value="bagi"> / (bagi)</option>
+</select>
+<input type="button" value="HITUNG" onClick="hitung()" />
+<input type="button" value="CLEAR" onClick="resetForm()" />
+</form>
+</body>
+</html>
+
+<hr>
+<hr>
+
+
+
+<body>
+    <header
+     <div class="container">
+         <div class="jumbotron">
+    <h1>Keliling Segitiga</h1> 
+ </header>
+ </div>
+ <p>
+    <center>
+    <figure>
+     <img src="assets/images/segitiga.jpg" width:"300" height="170"> 
+     <p></p>
+     <div>
+     <div id="content">
+     <p><i>Sebuah segitiga memiliki panjang sisi berukuran 8 cm. Segitiga tersebut memiliki panjang sisi yang sama pada ketiga sisinya. Tentukanlah keliling dari segitiga tersebut dengan tepat!</i></p>
+     <p>a. 24</p>
+     <p>b. 80</p>
+     <p>c. 45</p>
+     <p>d. 124</p>
+     <p>e. 512</p> 
+    </div>
+    </center> 
+</figure>
+</p>
+
+</head>
+<html>
+<head>
+<script text="text/javascript">
+     function tambah(){ 
+      a=eval(document.getElementById("a").value);
+      b=eval(document.getElementById("b").value);
+      c=eval(document.getElementById("c").value);
+      d=a+b+c;
+      document.getElementById("hasil").value=d;
+       }
+</script> 
+<script text="text/javascript">
+       function kurang(){ 
+      a=document.getElementById("a").value;
+      b=document.getElementById("b").value;
+      c=document.getElementById("c").value;
+      d=a-b-c;
+      document.getElementById("hasil").value=d;
+       }
+</script>
+<script text="text/javascript">
+       function kali(){ 
+      a=document.getElementById("a").value;
+      b=document.getElementById("b").value;
+      c=document.getElementById("c").value;
+      d=a*b*c;
+      document.getElementById("hasil").value=d;
+       }
+</script>
+<script text="text/javascript">
+       function bagi(){ 
+      a=document.getElementById("a").value;
+      b=document.getElementById("b").value;
+      c=document.getElementById("c").value;
+      d=a/b/c;
+      document.getElementById("hasil").value=d;
+       }
+</script> 
+ </head>
+<body>
+<form>
+    <center>
+    <table>
+       <tr>
+           <td>Sisi1</td>
+            <td>:</td>
+            <td><input type="text" id="a" name="a"></td>
+       </tr>  
+        <tr>
+           <td>Sisi2</td>
+            <td>:</td>
+            <td><input type="text" id="b" name="b"></td>
+       </tr> 
+       <tr>
+        <td>Sisi3</td>
+         <td>:</td>
+         <td><input type="text" id="c" name="c"></td>
+    </tr>
+        <tr>
+           <td>Hasil</td>
+            <td>:</td>
+            <td><input type="text" id="d" name="d"></td>
+       </tr>
+       <tr>
+            <td></td><td></td>
+            <td><input type="button" value="+" onClick="tambah()">
+                    <input type="button" value="-" onClick="kurang()">
+                   <input type="button" value="x" onClick="kali()">
+                   <input type="button" value="/" onClick="bagi()">
+       </tr>
+    </table>
+</center>
+</form>
+ </body>
+ </html>
+
+ <p></p>
+ <p></p>
+
+ <hr>
+ <hr>
